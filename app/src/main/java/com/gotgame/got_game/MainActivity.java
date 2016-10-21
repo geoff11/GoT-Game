@@ -8,9 +8,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import com.gotgame.got_game.m.Player;
+
 
 public class MainActivity extends AppCompatActivity {
-//Bite
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +30,15 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        /********** TEST CLASSES ******************/
+        Player p1 = new Player(1, "Clem");
+        Player p2 = new Player(2, "Geoff");
+
+        TextView text = new TextView(this);
+        text.setText("Test affichage des joueurs : " + p1 + " - " + p2);
+        setContentView(text);
+        /********* FIN ***************************/
     }
 
     @Override

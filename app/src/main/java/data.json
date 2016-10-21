@@ -1,0 +1,27 @@
+{
+  "group": [
+    {
+      "name": "Stark",
+      "character": [
+        {
+          "hardName": "Eddard Stark",
+          "softName": "Ned"
+        },{
+          "hardName": "Sansa Stark",
+          "softName": "Lady Sansa"
+        }
+      ]
+    },{
+      "name": "Baratheon",
+      "character": [
+        {
+          "hardName": "Robert Baratheon",
+          "softName": ""
+        },{
+          "hardName": "Joffrey Baratheon",
+          "softName": ""
+        }
+      ]
+    }
+  ]
+}
